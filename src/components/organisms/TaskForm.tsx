@@ -57,8 +57,7 @@ export const TaskForm = ({ addTodo }: Props) => {
           type="submit"
           variant="primary"
           size="sm"
-          disabled={!text.trim()}
-          className="flex-shrink-0 gap-2 px-4"
+          className="gap-2 px-4"
         >
           <FiPlus className="w-4 h-4" />
           Add
