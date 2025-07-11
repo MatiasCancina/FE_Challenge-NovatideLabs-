@@ -34,7 +34,7 @@ export const TaskList = ({ todos, toggleTodo, removeTodo }: Props) => {
         </div>
       </div>
 
-      <ul className="max-h-[35vh] overflow-y-auto overflow-x-hidden space-y-3">
+      <ul className="max-h-[35vh] overflow-y-auto overflow-x-hidden space-y-3 px-5">
         {todos.map((todo) => (
           <TaskItem
             key={todo.id}

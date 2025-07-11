@@ -20,7 +20,7 @@ const filters: { key: Filter; label: string; icon: React.ReactNode }[] = [
 
 export const FilterButtons = ({ filter, setFilter }: Props) => {
   return (
-    <div className="flex gap-2 p-1 bg-gray-100 rounded-2xl">
+    <div className="flex gap-3 p-1 bg-gray-100 rounded-2xl">
       {filters.map((f) => (
         <Button
           key={f.key}
